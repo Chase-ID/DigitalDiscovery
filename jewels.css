@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: bahnschrift condensed;
+    font-style: oblique;
+    background-image: url("domenico-loia-EhTcC9sYXsw-unsplash\ \(1\).jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    height: 70px;
+}
+
+.nix{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+    margin-top: 6px;
+    padding: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    font-size:18px; 
+    cursor:pointer;
+    margin-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.dropdown-content a{
+        color:rgb(5, 192, 67);
+        margin-left: 15px;
+        margin-top: 25px;
+        text-decoration: none;
+        background-color: rgba(0, 0, 255, 0.493)24, 24, 170;
+}
+
+#filtered:hover {
+    color: gray;
+}
+
+.image {
+    width: 115px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.body {
+    margin-top:30px;
+    padding: 40px;
+    background-color: rgba(194, 194, 233, 0.733);
+    
+    height: 600px;
+}
+
+.nav2{
+    color: black;
+    font-weight: bolder;
+    font-size: 27px;
+    width: 0;
+    overflow-x:hidden;
+    position: fixed;
+}
+
+.introduction {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.design {
+    color:rgb(219, 164, 11);
+}
+
+.contain{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.client {
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+}
+
+.statement-container {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.statement {
+    font-size: 20px;
+    color: rgb(15, 68, 64);
+}
+
+.dd {
+    color: rgb(219, 164, 11);
+}
+
+.courseslist {
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: maroon;
+}
+
+.reserve {
+    margin-top: 20px;
+    background-color: rgba(238, 238, 238, 0.678);
+    height: 40px;
+    text-align: center;
+}
+
+.reserver {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+.button {
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: rgb(20, 6, 148);
+    background-color: rgb(0, 255, 234);
+    border-style:dashed;
+    border-color: #ddd;
+    font-weight: bolder;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button2 {
+    width: 30%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-color: black;
+    color: rgb(20, 6, 148);
+    background-color: rgba(24, 49, 47, 0.521);
+    border-style:dashed;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ol {
+    list-style: georgian;
+}
+
+.list{
+    margin-top: 10px;
+}
+
+.container{
+    margin-top: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contained-container {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 60%;
+    color:midnightblue;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+.follow {
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.social {
+    width: 30px;
+}
+.follow-contain {
+    width: 50%;
+    display: block;
+    font-size: 20px;
+    color:aliceblue;
+    text-align: center;
+}
+
+.join-it {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .dropdown-content a{
+        color:rgb(5, 192, 67);
+        margin-left: 5px;
+        margin-top: 25px;
+        text-decoration: none;
+        background-color: rgba(0, 0, 255, 0.493)24, 24, 170;
+}
+}
+
+@media screen and (max-width: 460px) {
+
+    body {
+        font-family: bahnschrift condensed;
+        font-style: oblique;
+        background-image: url("uriel-soberanes-MxVkWPiJALs-unsplash.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .nix{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        float: right;
+        margin-top: 6px;
+        padding: 16px;
+        font-weight: bolder;
+        font-style: normal;
+        font-size:18px; 
+        cursor:pointer;
+        margin-top: 0px;
+        z-index: 1;
+        position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 230px;
+        overflow: auto;
+        right: 0;
+        background-color: #020202e1;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dropdown-content a{
+        color:whitesmoke;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.829);
+    }
+    
+    .nix a:hover {
+        background-color: #ddd;
+    }
+    
+    .reserve {
+        margin-top: 20px;
+        background-color: rgba(238, 238, 238, 0.336);
+        height: 40px;
+        text-align: center;
+    }
+
+    .nav2{
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 23px;
+        width: 50px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.603);
+    }
+
+    .introduction {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ddd;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .show {
+        display:block;
+    }
+
+    .image {
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .client {
+        width: 80%;
+        height: 30%;
+        margin-top: 30px;
+    }
+
+    
+
+    .courseslist {
+        margin-top: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        font-size: 15px;
+        color: rgb(240, 235, 235);
+    }
+    .statement {
+        font-size: 17px;
+        color: rgb(177, 240, 234);
+    }
+
+    .body {
+        margin-top:30px;
+        padding: 40px;
+        background-color: rgba(10, 10, 37, 0.733);
+        
+        height: 600px;
+    }
+
+    .contained-container {
+        font-size: 17px;
+        font-weight: bolder;
+        width: 60%;
+        color:midnightblue;
+    }
+}
